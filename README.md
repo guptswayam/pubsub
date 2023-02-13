@@ -28,7 +28,7 @@ You can import this package in your project and use the publish-subscribe patter
 
 ### Publishing Messages
 ```go
-    broker.Publish(pattern, "Hi Subsvribers!")
+    broker.Publish(pattern, "Hi Subscribers!")
 ```
 
 ### Example
@@ -38,3 +38,4 @@ You can import this package in your project and use the publish-subscribe patter
 ### Resources
 1. [Pub-Sub Pattern](https://blog.logrocket.com/building-pub-sub-service-go/)
 2. [Registering Go Package](https://go.dev/doc/modules/publishing)
+    - Go packages are refleted to https://pkg.go.dev/ after few days
